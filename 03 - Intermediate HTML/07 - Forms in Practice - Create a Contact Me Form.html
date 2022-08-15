@@ -12,19 +12,17 @@
     <p>077263718463</p>
     <p>myemail@algoject.com</p>
     <br>
-    <form action="mailto:info@algoject.com">
-        <label for="yourName">Your Name:</label>
-        <input type="text">
+    <form action="mailto:info@algoject.com" method="post" enctype="text/plain">
+        <label>Your Name:</label>
+        <input type="text" name="myName">
         <br>
-        <label for="yourEmail">Your Email:</label>
-        <input type="email">
+        <label>Your Email:</label>
+        <input type="email" name="myEmail">
         <br>
-        <label for="yourMessage">Your Message</label>
-        <textarea name="yourMessage" id="" cols="30" rows="10"></textarea>
+        <label>Your Message:</label> <br>
+        <textarea name="myMessage" id="" cols="30" rows="10"></textarea>
         <br>
         <input type="submit">
     </form>   
-    <br><br>
-    <a href="input.html">Input Challenge Page</a>
 </body>
 </html>
