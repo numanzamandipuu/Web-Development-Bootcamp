@@ -1,36 +1,42 @@
 body {
     margin: 0%;
+    text-align: center;
 }
 
-.container {
+h1 {
+    margin-top: 0%;
+}
+
+.top-container {
+    background-color: #E4F9F5;
     position: relative;
-    height: 300px;
-    width: 300px;
-    background-color: gray;
+    padding-top: 100px;
 }
 
-.red {
-    height: 100px;
-    width: 100px;
+.middle-container {
     background-color: red;
-    position: absolute;
-    right: 0%;
-    
+    width: 200px;
+    height: 200px;
 }
 
-.blue {
-    height: 100px;
-    width: 100px;
+.bottom-container {
     background-color: blue;
-    position: absolute;
-    left: 100px;
-    top: 0%;
+    width: 200px;
+    height: 200px;
 }
 
-.yellow {
-    height: 100px;
-    width: 100px;
-    background-color: yellow;
-    position: fixed;
-    top: 0%;
+.pro {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
 }
