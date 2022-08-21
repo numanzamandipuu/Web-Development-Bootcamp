@@ -22,15 +22,11 @@ h3 {
 }
 
 .middle-container {
-    background-color: red;
-    width: 200px;
-    height: 200px;
+    color: black;
 }
 
 .bottom-container {
-    background-color: blue;
-    width: 200px;
-    height: 200px;
+    color: black;
 }
 
 .pro {
