@@ -6,17 +6,24 @@ body {
 
 h1 {
     font-size: 5.625rem;
+    color: #66BFBF;
     margin-top: 50% auto 0% auto;
     font-family: 'Sacramento', cursive;
 }
 
 h2 {
     font-size: 2.5rem;
+    color: #66BFBF;
     font-family: 'Montserrat', sans-serif;
 }
 
 h3 {
+    color: #11999E;
     font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    color: #11999E;
 }
 
 .top-container {
