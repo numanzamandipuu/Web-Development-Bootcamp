@@ -17,3 +17,15 @@ h1 {
     background-color: #ff4c68;
     color: #ffffff;
 }
+
+/* Navigation Bar */
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
