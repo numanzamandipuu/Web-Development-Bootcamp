@@ -38,3 +38,15 @@ h1 {
     font-size: 1.2rem;
     font-family: 'Montserrat-Light';
 }
+
+/* Download Button */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image {
+    width: 60%;
+}
