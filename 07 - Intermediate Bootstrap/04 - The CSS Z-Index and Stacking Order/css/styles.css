@@ -74,6 +74,11 @@ p {
 
 #features {
     padding: 7% 15%;
+    background-color: white;
+    z-index: 1;
+    position: relative;
+    bottom: 125px;
+    margin-bottom: -125px;
 }
 
 .feature-box {
