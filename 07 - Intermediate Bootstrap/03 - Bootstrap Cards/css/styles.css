@@ -118,3 +118,22 @@ p {
     width: 15%;
     margin: 0 20px 50px 20px;
 }
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.card {
+    margin: 15px 0 15px 0;
+}
+
+.pricing-btn {
+    width: 100%;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
