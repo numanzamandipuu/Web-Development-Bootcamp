@@ -143,9 +143,59 @@ p {
     padding: 3% 2%;
 }
 
-@media (max-width: 1028px){
+@media (max-width: 991px){
+    #title {
+        text-align: center;
+    }
+    
     .title-image {
         position: static;
         transform: rotate(0);
+        margin: 50px 0 150px 0;
+    }
+}
+
+@media (max-width: 1355px){
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3.25rem;
+        line-height: 1.5;
+        font-weight: 900;
+    }
+}
+
+@media (max-width: 1275px){
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3rem;
+        line-height: 1.5;
+        font-weight: 900;
+    }
+}
+
+@media (max-width: 1175px){
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2.75rem;
+        line-height: 1.5;
+        font-weight: 900;
+    }
+}
+
+@media (max-width: 1090px){
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2.5rem;
+        line-height: 1.5;
+        font-weight: 900;
+    }
+}
+
+@media (max-width: 1000px){
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2.25rem;
+        line-height: 1.5;
+        font-weight: 900;
     }
 }
